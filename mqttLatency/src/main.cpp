@@ -3,12 +3,12 @@
 #include <WiFi.h>
 #include <PubSubClient.h>
 
-const char* SSID = "VIVO-0070";
-const char* PASSWORD = "m3VPvY9Uqz";
-//const char* SSID = "DESKTOP-MG4B1AC 8576";
-//const char* PASSWORD = "5Wf566=2";
+const char* SSID = "";
+const char* PASSWORD = "";
+//const char* SSID = "";
+//const char* PASSWORD = "";
 //const char* broker = "192.168.15.3";
-IPAddress broker(3,21,159,213);
+IPAddress broker(0,0,0,0);
 const char* topic = "/hello";
 int qos = 0;
 const uint16_t port = 1883;
